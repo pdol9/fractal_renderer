@@ -19,21 +19,17 @@ make
 ./fractol -m
 ```
 
+```
 # to move use
 
-```
 W, A, S, D
-```
 
 # to zoom
 
-```
 use mouse wheel or arrow keys up / down
-```
 
-# to change colors and set respectively
+# to change colors and sets respectively
 
-```
 ENTER
 
 SPACE
