@@ -13,7 +13,7 @@ make
 
 ## Usage
 
-# start the program by choosing the type of fractal -[m/j/b]
+start the program by choosing the type of fractal -[m/j/b]
 
 ```bash
 ./fractol -m
