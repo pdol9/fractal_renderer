@@ -1,8 +1,41 @@
-# fractal_generator
+# Fractal generator
 
+a simple C program which generates following fractals using a simple graphics library Minilibx:
+- Mandelbrot set
+- Julia set
+- burning ship
 
-this is fractal generator with some basic functions (mouse and key zoom, key movement, reseting to initial position and changing colours), using basic graphics library to render images of fractals. 
+## Installation
 
-currently there are only three available fractals: mandelbrot set, julia and burning ship, working on MacOS.
+```bash
+make
+```
 
+## Usage
+
+# start the program by choosing the type of fractal -[m/j/b]
+
+```bash
+./fractol -m
+```
+
+# to move use
+
+```
+W, A, S, D
+```
+
+# to zoom
+
+```
+use mouse wheel or arrow keys up / down
+```
+
+# to change colors and set respectively
+
+```
+ENTER
+
+SPACE
+```
 

@@ -6,7 +6,7 @@
 /*   By: pdolinar <pdolinar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/29 17:12:33 by pdolinar          #+#    #+#             */
-/*   Updated: 2022/07/18 15:23:29 by pdolinar         ###   ########.fr       */
+/*   Updated: 2023/08/23 22:12:21 by pdolinar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,6 @@ void	move(t_fractol *data, int key)
 		data->max_x -= data->center_x * 0.1;
 		data->min_x -= data->center_x * 0.1;
 	}
-	clearing_img(data);
 }
 
 int	mouse_event(int button, int x, int y, void *data)
@@ -68,7 +67,6 @@ int	julia_move(int x, int y, void *data)
 	center = tmp->max_y - tmp->min_y;
 	offset = tmp->min_y;
 	tmp->ky = offset + y * center / WINDOW_HEIGHT;
-	clearing_img(data);
 	fractol_rendering(data);
 	return (0);
 }
@@ -84,7 +82,6 @@ void	zoom(t_fractol *data, double factor)
 	data->min_x = data->min_x + center_x * factor * -0.1;
 	data->max_y = data->max_y - center_y * factor * -0.1;
 	data->min_y = data->min_y + center_y * factor * -0.1;
-	clearing_img(data);
 }
 
 int	handle_keypress(int key, void *data)

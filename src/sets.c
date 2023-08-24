@@ -6,7 +6,7 @@
 /*   By: pdolinar <pdolinar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/29 17:12:33 by pdolinar          #+#    #+#             */
-/*   Updated: 2022/07/18 15:23:47 by pdolinar         ###   ########.fr       */
+/*   Updated: 2023/08/23 21:31:48 by pdolinar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ void	mandelbrot_set(t_fractol *data)
 		new_z = 2 * a * bi + data->i;
 		a = a * a - bi * bi + data->r;
 		bi = new_z;
-		data->iter++;
+		++data->iter;
 	}
 	put_pixel(&(data->img), data->x, data->y, color_set(data));
 }
@@ -51,7 +51,7 @@ void	burning_ship_set(t_fractol *data)
 		new_z = 2 * a * bi + data->i;
 		a = a * a - bi * bi + data->r;
 		bi = new_z;
-		data->iter++;
+		++data->iter;
 	}
 	put_pixel(&(data->img), data->x, data->y, color_set(data));
 }
@@ -68,7 +68,7 @@ void	julia_set(t_fractol *data)
 		new_z = 2 * data->r * data->i + data->ky;
 		data->r = data->r * data->r - data->i * data->i + data->kx;
 		data->i = new_z;
-		data->iter++;
+		++data->iter;
 	}
 	put_pixel(&(data->img), data->x, data->y, color_set(data));
 }

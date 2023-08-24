@@ -6,7 +6,7 @@
 /*   By: pdolinar <pdolinar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/29 17:12:33 by pdolinar          #+#    #+#             */
-/*   Updated: 2022/07/18 15:23:33 by pdolinar         ###   ########.fr       */
+/*   Updated: 2023/08/23 21:11:13 by pdolinar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,6 @@ void	init_fractol(t_fractol *data)
 	def_set[0] = &init_set_m;
 	def_set[1] = &init_set_j;
 	def_set[2] = &init_set_s;
-	clearing_img(data);
 	def_set[data->fract_num](data);
 }
 

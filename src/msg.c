@@ -6,7 +6,7 @@
 /*   By: pdolinar <pdolinar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/29 17:12:33 by pdolinar          #+#    #+#             */
-/*   Updated: 2022/07/18 19:57:58 by pdolinar         ###   ########.fr       */
+/*   Updated: 2023/08/23 21:26:53 by pdolinar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,21 +30,21 @@ void	handle_error(int value)
 {
 	if (value == -1)
 	{
-		ft_putendl_fd("\n***********************************************\n", 1);
+		ft_putendl_fd("\n************************************************\n", 1);
 		ft_putendl_fd("  Invalid input, run cmd as such:\n", 1);
 		ft_putendl_fd("\t ./fractol -[first letter of a fractal]", 1);
-		ft_putendl_fd("\n***********************************************\n", 1);
-		exit(1);
+		ft_putendl_fd("\n************************************************\n", 1);
+		exit(EXIT_FAILURE);
 	}
-	else if (value == -2)
+	if (value == -2)
 	{
-		ft_putendl_fd("\n**********************************************\n", 1);
+		ft_putendl_fd("\n************************************************\n", 1);
 		ft_putendl_fd("Use a valid fractal:", 1);
 		ft_putendl_fd(" >> -m for mandelbrot", 1);
 		ft_putendl_fd(" >> -j for julia", 1);
-		ft_putendl_fd(" >> -b for burning ship", 1);
+		ft_putendl_fd(" >> -b for burning ship\n", 1);
 		ft_putendl_fd("************************************************\n", 1);
-		exit(1);
+		exit(EXIT_FAILURE);
 	}
 }
 
@@ -91,6 +91,6 @@ void	julia_args(int argc, char **argv, t_fractol *data)
 		ft_putendl_fd("\t->  0.180000  -0.566667", 1);
 		ft_putendl_fd("\t->  0.371504  -0.153893\n", 1);
 		ft_putendl_fd("************************************************", 1);
-		exit(1);
+		exit(EXIT_FAILURE);
 	}
 }
