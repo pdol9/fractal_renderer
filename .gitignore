@@ -1,0 +1,11 @@
+*.pdf
+*.txt
+*.tgz
+*.a
+*.o
+*.out
+fractol
+.DS_Store
+.vscode*
+*dSYM*
+te*

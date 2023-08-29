@@ -1,6 +1,6 @@
 # Fractal generator
 
-a simple C program which generates following fractals using a simple graphics library Minilibx:
+a single threaded application written in C. It generates following fractals using a simple graphics library Minilibx (X11 ):
 - Mandelbrot set
 - Julia set
 - burning ship
