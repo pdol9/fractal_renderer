@@ -9,7 +9,7 @@ a single threaded application written in C. It generates following fractals usin
 
 ```bash
 # move into necessary dir
-cd linux_version
+cd linux_version &&
 make
 ```
 
