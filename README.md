@@ -43,10 +43,13 @@ use mouse wheel or arrow keys up / down
 ## Examples
 
 Mandelbrot set
+<br>
 <img src="./pics/mandelbrot.png" alt="Mandelbrot set" width="300" height="300">
 
 Julia set
+<br>
 <img src="./pics/julia.png" alt="Julia set" width="300" height="300">
 
 Burning ship
+<br>
 <img src="./pics/burning-ship.png" alt="Burning ship" width="300" height="300">
