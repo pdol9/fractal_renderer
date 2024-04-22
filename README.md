@@ -42,18 +42,11 @@ use mouse wheel or arrow keys up / down
 
 ## Examples
 
-<div>
 ![Mandelbrot set](./pics/mandelbrot.png)
 <img src="./pics/mandelbrot.png" alt="Mandelbrot set" width="300" height="300">
-</div>
 
-<div>
 ![Julia set](./pics/julia.png)
 <img src="./pics/julia.png" alt="Julia set" width="300" height="300">
-</div>
 
-<div>
 ![Burning ship](./pics/burning-ship.png)
 <img src="./pics/burning-ship.png" alt="Burning ship" width="300" height="300">
-</div>
-
