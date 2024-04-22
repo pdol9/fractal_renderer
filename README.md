@@ -1,6 +1,14 @@
 # Fractal renderer
 
-a single threaded application written in C. It generates following fractals using a simple graphics library Minilibx (X11 framework):
+## Current status
+-- Completed --
+
+## Description
+
+This is a single threaded application written in C. It generates below listed
+fractals using a graphics library Minilibx, which provides a beginner-friendly
+C API to interact with the X11 system.
+Following fractals are available:
 - Mandelbrot set
 - Julia set
 - burning ship set
@@ -8,32 +16,34 @@ a single threaded application written in C. It generates following fractals usin
 ## Installation
 
 ```bash
-# move into necessary dir
-cd linux_version &&
-make
+# move into necessary directory: either Linux or MacOS platform
+cd linux_version && make
 ```
 
 ## Usage
 
-start the program by choosing the type of fractal -[m/j/b]
+- Start the program by choosing the type of fractal ```-[m/j/b]``` as a parameter.
 
 ```bash
 ./fractol -m
 ```
 
+- To move use ```W, A, S, D```
+
+- To zoom in / out
+
 ```
-# to move use
-
-W, A, S, D
-
-# to zoom
-
 use mouse wheel or arrow keys up / down
-
-# to change colors and sets respectively
-
-ENTER
-
-SPACE
 ```
 
+- To change colors and sets, press ```ENTER``` and ```SPACE``` respectively.
+
+- To reset image press ```R```.
+
+## Examples
+![Mandelbrot set]
+<img src="./pics/mandelbrot.png" width=300 height=300>
+![Julia set]
+<img src="./pics/julia.png" width=300 height=300>
+![burning ship]
+<img src="./pics/burning-ship.png" width=300 height=300>
