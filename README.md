@@ -41,9 +41,6 @@ use mouse wheel or arrow keys up / down
 - To reset image press ```R```.
 
 ## Examples
-![Mandelbrot set]
-<img src="./pics/mandelbrot.png" width=300 height=300>
-![Julia set]
-<img src="./pics/julia.png" width=300 height=300>
-![burning ship]
-<img src="./pics/burning-ship.png" width=300 height=300>
+![Mandelbrot set]<img src="./pics/mandelbrot.png" width=300 height=300>
+![Julia set]<img src="./pics/julia.png" width=300 height=300>
+![burning ship]<img src="./pics/burning-ship.png" width=300 height=300>
