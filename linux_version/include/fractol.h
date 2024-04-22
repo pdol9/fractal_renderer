@@ -6,7 +6,7 @@
 /*   By: pdolinar <pdolinar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/06/10 17:12:33 by pdolinar          #+#    #+#             */
-/*   Updated: 2023/08/29 20:42:02 by pdolinar         ###   ########.fr       */
+/*   Updated: 2024/04/22 19:42:02 by pdolinar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,10 +29,10 @@
 # define M_DOWN			4
 
 # define KEY_ESC		65307
-# define KEY_W			119
-# define KEY_A			97
-# define KEY_S			115
-# define KEY_D			100
+# define KEY_S			119
+# define KEY_D			97
+# define KEY_W			115
+# define KEY_A			100
 # define KEY_UP			65362
 # define KEY_DOWN		65364
 # define KEY_ENTER		65293
