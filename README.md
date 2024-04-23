@@ -18,6 +18,8 @@ Following fractals are available:
 ```bash
 # move into necessary directory: either Linux or MacOS platform
 cd linux_version && make
+# or
+cd macOS_version && make
 ```
 
 ## Usage
@@ -30,11 +32,7 @@ cd linux_version && make
 
 - To move use ```W, A, S, D```
 
-- To zoom in / out
-
-```
-use mouse wheel or arrow keys up / down
-```
+- To zoom in / out use ```mouse wheel``` or ```arrow key up / down```
 
 - To change colors and sets, press ```ENTER``` and ```SPACE``` respectively.
 
