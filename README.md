@@ -17,10 +17,18 @@ Following fractals are available:
 
 ```bash
 # move into necessary directory: either Linux or MacOS platform
-cd linux_version && make
+cd linux_version
 # or
-cd macOS_version && make
+cd macOS_version
 ```
+
+Then run the following line to pull external library Minilibx repo
+```bash
+git submodule update --init --recursive
+```
+
+Finally, run ```make```.
+
 
 ## Usage
 
